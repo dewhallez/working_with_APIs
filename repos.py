@@ -15,7 +15,7 @@ response_dict = r.json()
 
 print("Total repositories:", response_dict['total_count'])
 
-# Explore information about the resipotories.
+# Explore information about the repositories
 repo_dicts = response_dict['items']
 print("Repositories returned:", len(repo_dicts))
 
